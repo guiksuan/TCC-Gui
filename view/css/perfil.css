@@ -203,6 +203,8 @@
     width: 9rem;
 }
 
+/*Alterar Info Pessoal*/
+
 .user-update
 {
     width: 70rem;
@@ -211,6 +213,7 @@
     margin-left: 50rem;
     margin-top: 2rem;
     border-radius: 1%;
+    display: fixed;
 }
 
 #lblus1, #lblus2, #lblus3, #lblus4, #lblus5, #lblus6, #lblus7, #lblus8
@@ -246,12 +249,29 @@
 
 #lblus5
 {
-    margin-top: -9.9rem;
+    margin-top: 2.1rem;
     margin-left: 40rem;
 }
 
+#lblus6
+{
+    margin-top: 9rem;
+    margin-left: 2rem;
+}
 
-.inputnameus, .inputdataus, .inputrgus, .inputcpfus
+#lblus7
+{
+    margin-left: 40rem;
+    margin-top: 9rem;
+}
+
+#lblus8
+{
+    margin-left: 2rem;
+    margin-top: 16rem;
+}
+
+.inputnameus, .inputdataus, .inputrgus, .inputcpfus, .inputespecus
 {
     font-size: 2rem;
     text-align: left;
@@ -288,5 +308,101 @@
 {
     margin-top: 12rem;
     margin-left: -5rem;
+    width: 15rem;
     position: absolute;
 }
+
+.inputespecus
+{
+    margin-top: 19rem;
+    margin-left: 13rem;
+    width: 20rem;
+    position: fixed;
+}
+
+.cmbbxus1, .cmbbxus2
+{
+    font-size: 2rem;
+    color: #444444;
+    border-color: rgba(0,0,0,0.3);
+    border-radius: 6px;
+    position: fixed;
+}
+
+.cmbbxus1
+{
+    margin-top: 12rem;
+    margin-left: 13rem;
+}
+
+.cmbbxus2
+{
+    margin-top: 19rem;
+    margin-left: -24.8rem;
+}
+
+.radious, .radio2us, .radio3us, .radio4us
+{
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    accent-color: #00C16C;
+    border-color: #00C16C;
+}
+
+.radious
+{
+    margin-left: -25rem;
+    margin-top: 27rem;
+}
+
+.radio2us
+{
+    margin-top: 27rem;
+    margin-left: -5.5rem;
+}
+
+.radio3us
+{
+    margin-top: 27rem;
+    margin-left: 13rem;
+}
+
+.radio4us
+{
+    margin-top: 33rem;
+    margin-left: -24.9rem;
+}
+
+.txt_rd_us, .txt_rd2_us, .txt_rd3_us, .txt_rd4_us
+{
+    font-size: 2rem;
+    position: fixed;
+}
+
+.txt_rd_us
+{
+    margin-left: -22.5rem;
+    margin-top: 26.5rem;
+}
+
+.txt_rd2_us
+{
+    margin-top: 26.5rem;
+    margin-left: -3rem;
+}
+
+.txt_rd3_us
+{
+    margin-top:26.5rem;
+    margin-left: 15.5rem;
+}
+
+.txt_rd4_us
+{
+    margin-top: 32.5rem;
+    margin-left: -22.5rem;
+}
+
+/*Alterar Endereco*/
+

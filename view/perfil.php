@@ -10,7 +10,7 @@
         <span></span>
     </nav>
 
-   <div class="user-update">
+   <div class="user-update" id="pessoal-info">
             <form action="" method="POST">
                <p id="lblus1">Nome Completo</p>
                <input type="text" class="inputnameus" name="nome">
@@ -32,32 +32,79 @@
                 </select>
 
                <p id="lblus6">Possui algum tipo de deficiência?</p>
-               <select class="cmbbxcd2" name="def">
+               <select class="cmbbxus2" name="def">
                     <option value="sim">Sim</option>
                     <option value="nao">Não</option>
                </select>
                <p id="lblus7">Especifique</p>
-               <input type="text" class="inputespec" name="espec">
+               <input type="text" class="inputespecus" name="espec">
 
                <p id="lblus8">Sexo</p>
-               <input type="radio" name="sex" id="Mas" value="Masculino" class="radio">
-               <label for="Mas" class="txt_rd">Masculino</label>  
-               <input type="radio" name="sex" id="Fem" value="Feminino" class="radio2">
-               <label for="Fem" class="txt_rd2">Feminino</label>
-               <input type="radio" name="sex" id="Out" value="Outro" class="radio3">
-               <label for="Out" class="txt_rd3">Outro</label>
-               <input type="radio" name="sex" id="Pre" value="Prefiro não dizer" class="radio4">
-               <label for="Pre" class="txt_rd4">Prefiro não dizer</label><br>
+               <input type="radio" name="sex" id="Mas" value="Masculino" class="radious">
+               <label for="Mas" class="txt_rd_us">Masculino</label>  
+               <input type="radio" name="sex" id="Fem" value="Feminino" class="radio2us">
+               <label for="Fem" class="txt_rd2_us">Feminino</label>
+               <input type="radio" name="sex" id="Out" value="Outro" class="radio3us">
+               <label for="Out" class="txt_rd3_us">Outro</label>
+               <input type="radio" name="sex" id="Pre" value="Prefiro não dizer" class="radio4us">
+               <label for="Pre" class="txt_rd4_us">Prefiro não dizer</label><br>
 
-               <button type="submit" name="btnCadastro" class="btncd" style="    
+               <button type="submit" name="btnCadastro" class="btnus" style="    
                background-color:#01E581; 
-               color: #fff; 
-               border-radius:20px; 
-               font-size: 2.4rem; 
-               align-items: center; 
-               text-align: center;"
-               >Próximo Passo</button>
+               color: #fff;
+               width:15rem;
+               height: 3rem; 
+               border-radius:8px; 
+               font-size: 2rem; 
+               display: flex;
+               align-items:center;
+               justify-content: center; 
+               margin-top:26rem;
+               margin-left: 50rem;
+               border: 0.8px solid  rgba(0,0,0,0.3)"
+               >Alterar</button>
             </form>
+   </div>
+
+   <div class="user-update2" id="pessoalendereco">
+        <form action="" method="POST">
+               <p id="lblus21">Cidade</p>
+               <input type="text" class="inputcidUS" name="CID">
+               <p id="lblus22">Rua</p>
+               <input type="text" class="inputruaUS" name="RUA">
+
+               <p id="lblus23">Bairro</p>
+               <input type="text" class="inputbrUS" name="BAI">
+               <p id="lblus24">Número</p>
+               <input type="text" class="inputnumUS" name="NUM">
+               <p id="lblus25">CEP</p>
+               <input type="text" class="inputcepUS" name="CEP">
+
+               <p id="lblus26">Ponto de referencia</p>
+               <input type="text" class="inputrefUS" name="REF">
+               <p id="lblus27">Tempo de residencia no municipio</p>   
+               <input type="text" class="inputtempUS" name="TEM">
+
+               <p id="lblus28">Valor da Residencia(R$)</p>
+               <input type="text" class="inputvlrUS" name="VLR">
+               <p id="lblus29">Tipo de Residencia</p>
+               <input type="text" class="inputtipUS" name="TPR">
+
+               <button type="submit" name="btnCadastro2" class="btncd2" style="    
+               background-color:#01E581; 
+               color: #fff;
+               width:15rem;
+               height: 3rem; 
+               border-radius:8px; 
+               font-size: 2rem; 
+               display: flex;
+               align-items:center;
+               justify-content: center; 
+               margin-top:26rem;
+               margin-left: 50rem;
+               border: 0.8px solid  rgba(0,0,0,0.3)"
+               >Alterar</button>
+        </form>
    </div>
 </div>
 <?php Include("blades/followemp.php")?>
